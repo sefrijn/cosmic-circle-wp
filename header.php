@@ -8,13 +8,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="description" content="Sefrijn uses technology, curiosity, meditation and play to make interactive creations, vibrations and experiences.">
-	<meta name="og:description" content="Sefrijn uses technology, curiosity, meditation and play to make interactive creations, vibrations and experiences.">
-	<meta name="og:site_name" content="Work by Sefrijn">
-	<meta name="og:title" content="Sefrijn - Creations, vibrations and experiences">
-	<meta name="keywords" content="Technology,Design,Art,Code,Music,Interactive,Interactive Installation,Creativity">
-	<meta name="author" content="Sefrijn">
-	<meta property="og:image" content="http://www.sefrijn.nl/wp-content/uploads/2015/02/IMG_0782-1024x472.jpg" />
+	<meta name="description" content="Cosmic Circle is a platform for creation, art, play, exploration and ceremony.">
+	<meta name="og:description" content="Cosmic Circle is a platform for creation, art, play, exploration and ceremony. ">
+	<meta name="og:site_name" content="Cosmic Circle">
+	<meta name="og:title" content="Cosmic Circle">
+	<meta name="keywords" content="Healing,Art,Technology,Spirituality">
+	<meta name="author" content="Sefrijn and Yashael">
+	<!-- <meta property="og:image" content="http://www.sefrijn.nl/wp-content/uploads/2015/02/IMG_0782-1024x472.jpg" /> -->
 	<title>Cosmic Circle - Connecting out there with down here</title>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.2.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
