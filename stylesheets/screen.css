@@ -788,3 +788,51 @@ footer {
 #attachment_86 {
   margin-right: 30px;
 }
+
+/* line 638, ../sass/screen.scss */
+#page .tribe-events-single-section.tribe-events-event-meta h3.tribe-events-single-section-title {
+  padding: 0;
+}
+/* line 641, ../sass/screen.scss */
+#page .tribe-events-venue-map {
+  width: 100% !important;
+}
+@media screen and (min-width: 768px) {
+  /* line 645, ../sass/screen.scss */
+  #page .tribe-events-meta-group-gmap {
+    padding-right: 0;
+  }
+}
+
+/* line 650, ../sass/screen.scss */
+.tribe-events-list .tribe-events-event-image + div.tribe-events-content {
+  float: none !important;
+  width: auto !important;
+}
+/* line 653, ../sass/screen.scss */
+.tribe-events-list .tribe-events-event-image + div.tribe-events-content p {
+  padding: 0 !important;
+}
+
+/* line 658, ../sass/screen.scss */
+.tribe-events-calendar p {
+  padding: 0 !important;
+}
+/* line 661, ../sass/screen.scss */
+.tribe-events-calendar .tribe-events-tooltip .tribe-events-event-body {
+  font-size: 15px !important;
+}
+
+@media screen and (max-width: 550px) {
+  /* line 666, ../sass/screen.scss */
+  .tribe-events-list .tribe-events-event-image + div.tribe-events-content {
+    float: left;
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 672, ../sass/screen.scss */
+  .type-tribe_events.tribe-clearfix {
+    padding: 1.5em 1em;
+  }
+}

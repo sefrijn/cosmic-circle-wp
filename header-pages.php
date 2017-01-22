@@ -31,10 +31,10 @@
 
 	<meta name="description" content="<?php echo $myExcerpt; ?>">
 	<meta name="og:description" content="<?php echo $myExcerpt; ?>">
-	<meta name="og:site_name" content="Work by Sefrijn">
-	<meta name="og:title" content="<?php echo $myTitle; ?> | Sefrijn - Creations, vibrations and experiences">
-	<meta name="keywords" content="Technology,Design,Art,Code,Music,Interactive,Interactive Installation,Creativity">
-	<meta name="author" content="Sefrijn">
+	<meta name="og:site_name" content="Cosmic Circle">
+	<meta name="og:title" content="Cosmic Circle">
+	<meta name="keywords" content="Healing,Art,Technology,Spirituality">
+	<meta name="author" content="Sefrijn and Yashael">
 	<meta property="og:image" content="<?php echo $myImage; ?>" />
 	<title><?php echo $myTitle; ?> | Cosmic Circle</title>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.2.min.js"></script>
@@ -44,7 +44,6 @@
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
 	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="image_src" href="<?php echo get_template_directory_uri(); ?>/img/sefrijn_square.png" />
 
 	<!-- Google Analytics -->
@@ -65,6 +64,7 @@
 	<style>
 	</style>
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">	
 </head>
 
 <body <?php body_class(); ?>>

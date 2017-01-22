@@ -632,3 +632,44 @@ footer{
 #attachment_86{
 	margin-right:30px;
 }
+
+// EVENTS
+#page{
+	.tribe-events-single-section.tribe-events-event-meta h3.tribe-events-single-section-title{
+		padding:0;
+	}
+	.tribe-events-venue-map{
+		width:100% !important;
+	}
+	@media screen and (min-width: 768px){
+		.tribe-events-meta-group-gmap{
+		padding-right:0;
+		}
+	}
+}
+.tribe-events-list .tribe-events-event-image+div.tribe-events-content{
+	float:none !important;
+	width:auto !important;
+	p{
+		padding:0 !important;
+	}
+}
+.tribe-events-calendar{
+	p{
+		padding:0 !important;
+	}
+	.tribe-events-tooltip .tribe-events-event-body{
+		font-size:15px !important;
+	}
+}
+@media screen and (max-width: 550px){
+	.tribe-events-list .tribe-events-event-image+div.tribe-events-content{
+		float:left;
+		width:auto;
+	}	
+}
+@media screen and (max-width: 768px){
+	.type-tribe_events.tribe-clearfix{
+		padding:1.5em 1em;
+	}	
+}
